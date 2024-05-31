@@ -8,17 +8,15 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <title>Ejercicio de Programacion 2</title>
 </head>
-
 <body class="container bg-light.bg-gradient">
   <h1>Convertidor de Temperaturas</h1>
-  <form action="">
-    <label class="form-label" for="temperature">
-      Temperatura en grados Celsius
-    </label>
-      <input class="form-control bg-white border border-dark" placeholder="33°" type="text" name="temperature">
-    <button class="btn btn-primary mt-1">Subir Valores</button>
-  </form>
-
+  <div class="form-floating mx-auto my-1">
+    <input type="text" class="form-control  bg-white border border-dark" id="floatingInput"
+      placeholder="33°">
+    <label for="floatingInput">Temperatura en grados Celsius</label>
+    <button id="buttonInput" class="btn btn-primary mt-1">Subir Valores</button>
+  </div>
+  <script type="module" src="app.js"></script>
 </body>
 
 </html>
